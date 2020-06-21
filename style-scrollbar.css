@@ -1,0 +1,41 @@
+@import "style-vars.css";
+/* container properties */
+
+.scrollbar {
+    /* background-color: #7bd6fc; */
+}
+
+/* customize scrollbar css */
+
+#scrollbar-custom::-webkit-scrollbar {
+    width: 12px;
+    /*background-color: #223e2d;*/
+    background-color: var(--scrollbar-body-background);
+}
+
+#scrollbar-custom::-webkit-scrollbar:horizontal {
+    height: 12px;
+    background-color: var(--scrollbar-body-background);
+}
+
+#scrollbar-custom::-webkit-scrollbar-track {
+    border: 1px #223e2d solid;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 6px #c8c8c8 inset;
+}
+
+#scrollbar-custom::-webkit-scrollbar-thumb {
+    background-color: #00b0c4;
+    border: 1px solid #000000;
+    border-radius: 16px;
+}
+
+#scrollbar-custom::-webkit-scrollbar-thumb:hover {
+    background-color: #00b0c4;
+    border: 1px solid #333333;
+}
+
+#scrollbar-custom::-webkit-scrollbar-thumb:active {
+    background-color: #CBEA00;
+    border: 1px solid #333333;
+}

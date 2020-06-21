@@ -1,0 +1,95 @@
+html, 
+
+body{
+	background-image: url('img/wave.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+	
+  font-family: "Calibri", Arial, sans-serif;
+}
+
+h1{
+  font-family: "Calibri", Arial, sans-serif;
+  color: #2f3441;
+  padding: 20px;
+  text-align:center;
+  position: relative;
+  
+}
+
+h3{
+  font-family: "Calibri", Arial, sans-serif;
+  color: #eb281a;
+  text-align:center;
+  position: relative;
+  
+}
+
+
+.header {
+   width: 30%;
+   margin: 10px auto 0px;
+   color: white;
+   background: #2f3441;
+   text-align: center;
+   border: 1px solid #1a2130;
+   border-bottom: none;
+   border-radius: 10px 10px 0px 0px;
+   padding: 20px;
+
+}
+
+form {
+   width: 30%;
+   margin: 0px auto;
+   padding: 20px;
+   border: 1px solid #1a2130;
+   background: white;
+   border-radius: 0px 0px 10px 10px;
+}
+
+.input-group {
+	margin: 10px 0px 10px 0px;
+}
+
+.input-group label {
+	display: block;
+	text-align: left;
+	margin: 3px;
+}
+
+.input-group input {
+	height: 30px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+ 
+ 
+.loginbtn{
+	display: block;
+	width: 100%;
+	height: 50px;
+	border-radius: 25px;
+	outline: none;
+	border: none;
+	background-image: linear-gradient(to right, #32be8f, #38d39f, #32be8f);
+	background-size: 200%;
+	font-size: 16px;
+	color: #fff;
+	font-family: "Calibri", Arial, sans-serif;
+	text-transform: uppercase;
+	margin: 1rem 0;
+	cursor: pointer;
+	transition: .5s;
+}
+.lginbtn:hover{
+	background-position: right;
+}	
+
+
+	
+	

@@ -1,0 +1,160 @@
+@import "style-scrollbar.css";
+/* buraya eklemiyorum, cünkü scrollbardan buraya tasinmasi gerek */
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: white;
+  max-height: 100vh;
+  /*background-image: linear-gradient(#17477e, #00b0c4);*/
+}
+
+header {
+  display: block;
+}
+
+header nav {
+  background-color: var(--body-background) !important;
+}
+
+main {
+  display: block;
+  overflow: hidden;
+  height: var(--mainFullHeight);
+  background-color: var(--body-background);
+}
+
+main>div>div {
+  height: var(--mainFullHeight);
+}
+
+main .products>div {
+  margin: 20px auto;
+  /* overflow: hidden; */
+  background-color: var(--content-background);
+  border-radius: 20px;
+}
+
+main .products>div>form {
+  margin: 20px auto;
+  height: var(--innerContentFullHeight);
+  overflow-y: scroll;
+}
+
+main .products .articles {
+  margin: 0.45rem;
+  max-width: 12rem;
+  min-width: 12rem;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 20px;
+  border: 2px solid #00b0c4;
+  box-shadow: 5px 5px 5px #333333;
+}
+
+main .products .articles .image {
+  height: 100%;
+  background: no-repeat center center/contain transparent;
+}
+
+main .products .articles .content {
+  padding: 5px 10px;
+  height: 80px;
+  font-weight: bold;
+  text-align: left;
+  color: white;
+  background-color: var(--products-background);
+  /* border: 2px solid red; */
+}
+
+main .products .articles .content span {
+  display: block;
+  padding: 0px !important;
+  font-weight: normal;
+}
+
+main .sidebar>div {
+  width: var(--sitebarMinWidth);
+}
+
+main .sidebar>div>div {
+  margin-top: 20px;
+  height: calc(var(--contentFullHeight) - 5px);
+  background-color: var(--content-background);
+  border-radius: 20px;
+}
+
+main .sidebar>div p:first-of-type {
+  margin-top: 30px;
+  border-bottom: 2px solid white;
+}
+
+main .sidebar>div p:last-of-type {
+  text-align: right;
+}
+
+main .sidebar>div .card-section1 {
+  padding-bottom: 15px;
+  overflow-y: scroll;
+  min-height: 50px;
+  max-height: 25vh;
+}
+
+main .sidebar>div .card-section1>div:first-child {
+  padding-bottom: 15px;
+  font-weight: bolder;
+}
+
+main .sidebar>div .card-section1>div div:nth-child(2) {
+  text-align: center;
+  /* border:2px solid orange; */
+}
+
+main .sidebar>div .card-section1>div div:last-child {
+  text-align: right;
+  /* border:2px solid red; */
+}
+
+main .sidebar>div .card-section2 {
+  margin-top: 15px;
+  border-top: 2px dotted white;
+}
+
+main .sidebar>div .card-section2>div, main .sidebar>div .card-section3>div {
+  padding-top: 15px;
+}
+
+main .sidebar>div .card-section2>div div:last-child {
+  text-align: right;
+}
+
+main .sidebar>div .card-section2>div:last-child {
+  font-weight: bolder;
+}
+
+main .sidebar>div .card-section3>div .btn {
+  width: 120px;
+  border: 0px solid red;
+}
+
+main .sidebar>div .card-section3>div>div button {
+  color: white;
+  border: 2px solid white !important;
+}
+
+@media (min-width: 768px) {
+  main .products .hidden-up {
+    display: none !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  main .products>div {
+    float: left;
+    margin: 0px auto !important;
+  }
+  main .products>div>form {
+    height: calc(var(--innerContentFullHeight) - 20px);
+  }
+}

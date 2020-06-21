@@ -1,0 +1,407 @@
+html, body {
+  height: 100%;
+  width: 80%;
+  background-color: #17477e !important;
+}
+
+html {
+  display: table;
+  margin: auto;
+}
+
+body {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+h1 {
+  font-family: "Calibri", Arial, sans-serif;
+  color: #2f3441;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+#viewCart {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #eee;
+  padding: 35px;
+  width: 100%;
+}
+
+#viewCartconfirm {
+  background-color: #fff;
+  position: relative;
+  margin: 0 auto;
+  padding: 20px;
+  width: 85%;
+  min-width: 370px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+#baslık {
+  background-image: linear-gradient(#202020, #17477e);
+  color: white;
+  font-weight: bolder;
+  font-size: 25px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  position: relative;
+  margin: 0 auto;
+  padding: 20px;
+  width: 85%;
+  min-width: 370px;
+}
+
+#viewCartconfirm input.text {
+  width: 100%;
+  padding: 7px;
+}
+
+#viewCartconfirm input.button {
+  padding: 15px;
+  background-color: #06B819;
+  color: #fff;
+  width: 200px;
+  float: right;
+  border: 1px solid #fff;
+  font-weight: strong;
+  font-size: 18px;
+}
+
+#viewCart input.text {
+  width: 100%;
+  padding: 7px;
+}
+
+#viewCart input.button {
+  padding: 15px;
+  background-color: #06B819;
+  color: #fff;
+  width: 200px;
+  float: right;
+  border: 1px solid #fff;
+  font-weight: strong;
+  font-size: 18px;
+}
+
+#viewTitle {
+  font-size: 26px;
+  color: #000;
+  display: block;
+}
+
+#viewTitleProduct {
+  float: left;
+  font-size: 26px;
+  color: #17477e;
+  font-weight: bold;
+  display: block;
+  padding-left: 10px;
+}
+
+#viewTitleProductBack {
+  float: right;
+  font-size: 20px;
+  color: #f01c11;
+  display: block;
+  padding-right: 10px;
+}
+
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+  background-color: #fff;
+}
+
+#customers tr:hover {
+  background-color: #ddd;
+}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #17477e;
+  color: white;
+}
+
+#viewTable {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  width: 75%;
+}
+
+#viewTable td {
+  border-bottom: 1px solid #ccc;
+  padding: 15px;
+}
+
+#viewTable td.blank {
+  border-bottom: 1px solid #fff;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.tableHeader {
+  background-color: #32be8f;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  border: 1px solid #ccc;
+}
+
+.productTable {
+  width: 100%;
+  table-layout: auto;
+}
+
+.productTable td {
+  text-align: center;
+  vertical-align: middle;
+  max-width: 30%;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+}
+
+.checkPmt {
+  padding: 3px;
+  background-color: #32be8f !important;
+  color: #fff;
+  float: center;
+  border: 1px solid #fff;
+  font-weight: strong;
+  padding: 10px 10px;
+}
+
+#logout {
+  background-color: #eb281a;
+  float: right;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#remove {
+  padding: 5px;
+  background-color: #EC2D17;
+  color: #fff;
+  float: left;
+  border: 1px solid #fff;
+  font-weight: strong;
+  font-size: 12px;
+}
+
+.cartBtn {
+  padding: 8px;
+  background-color: #62C3F4;
+  color: #fff;
+  width: 200px;
+  float: right;
+  border: 1px solid #fff;
+  font-weight: strong;
+  font-size: 18px;
+}
+
+.cartBtn:hover {
+  padding: 8px;
+  background-color: #06B819;
+  color: #fff;
+  width: 200px;
+  float: right;
+  border: 1px solid #fff;
+  font-weight: strong;
+  font-size: 18px;
+}
+
+#update {
+  background-color: #4CAF50;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+}
+
+#delete {
+  background-color: #eb281a;
+  /* red */
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+}
+
+#add {
+  display: block;
+  width: 100%;
+  height: 50px;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  background-image: linear-gradient(to right, #32be8f, #38d39f, #32be8f);
+  background-size: 200%;
+  font-size: 16px;
+  color: #fff;
+  font-family: "Calibri", Arial, sans-serif;
+  text-transform: uppercase;
+  margin: 1rem 0;
+  cursor: pointer;
+  transition: .5s;
+}
+
+* {
+  box-sizing: border-box
+}
+
+.add-item-form {
+  width: 80%;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #1a2130;
+  background: #e3f0ec;
+  border-radius: 10px 10px 10px 10px;
+}
+
+/* Style tab links */
+
+.tablink {
+  background-color: white;
+  color: #2f3441;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 1.8vw;
+  font-weight: bold;
+  width: 33.3%;
+}
+
+.tablink:hover {
+  background-color: #7adcbb;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+
+.tabcontent {
+  color: black;
+  display: none;
+  padding: 70px 20px;
+  height: 100%;
+}
+
+#Home {
+  background-color: white;
+}
+
+#News {
+  background-color: white;
+}
+
+#Contact {
+  background-color: white;
+}
+
+.text {
+  height: 30px;
+  width: 50%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.inputArea {
+  height: 120px;
+  max-height: 140px;
+  min-height: 80px;
+  width: 75%;
+  max-width: 85%;
+  min-width: 50%;
+  padding: 7px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.confirmShip {
+  float: center;
+  width: 100%;
+  text-align: right;
+  padding: 15px;
+}
+
+#payAmt {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  font-size: 20px;
+  width: 70%;
+  text-align: center;
+}
+
+#payBox {
+  width: 70%;
+  height: 30px;
+  font-size: 19px;
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+}
+
+#qrcode {
+  text-align: center;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  padding: 15px;
+}
+
+/* countdown timer*/
+
+#progressBar {
+  width: 90%;
+  margin: 10px auto;
+  height: 22px;
+  background-color: #0A5F44;
+}
+
+#progressBar div {
+  height: 100%;
+  text-align: right;
+  padding: 0 10px;
+  line-height: 22px;
+  /* same as #progressBar height if we want text middle aligned */
+  width: 0;
+  background-color: #CBEA00;
+  box-sizing: border-box;
+}

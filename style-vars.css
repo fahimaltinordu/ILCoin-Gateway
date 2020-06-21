@@ -1,0 +1,10 @@
+:root {
+    --mainFullHeight: calc(100vh - 56px);
+    --contentFullHeight: calc(var(--mainFullHeight) - 44px);
+    --innerContentFullHeight: calc(var(--contentFullHeight) - 45px);
+    --sitebarMinWidth: 400px;
+    --body-background: #00b0c4;
+    --content-background: #17477e;
+    --products-background: #00b0c4;
+    --scrollbar-background: #00b0c4;
+}

@@ -1,26 +1,30 @@
-# NoNodePay
- Simple Bitcoin Shopping Cart No Node
+# ILCOIN GATEWAY 
 
+**ILCoin Point of Sale | PRO** enables your business to accept ILCoin as a payment completely hassle and risk-free. It provides a seamless payment experience for both business and customer by eliminating any complexity. 
 
-# Accept Bitcoin For Free   #
-#   No Node Required        #
-# Open Source Shopping Cart #
+ILCoin Point of Sale | PRO is an automation solution that enables you to manage orders and ILCoin payments in restaurants, cafes, patisseries and similar shops. It allows delivering great customer service. 
 
-# Step By Step Video Installation How To
-https://www.youtube.com/watch?v=jBUnOFxe24s
+Once you start accepting payments in ILCoin, you’ll be surprised how many advantages crypto payment option poses over conventional payment methods! Track orders and manage your cryptocurrency earnings in style! 
 
-I have created this shopping cart that will allow users to accept bitcoin on their website without having to use a privileged API service. 
-This project does use some public API's to check the blockchain but they require no permission or API Keys. 
+**Features**
+- No need to use a privileged API service 
+- No Node Required
+- No fees 
+- No Middleman 
+- No additional hardware 
 
+**Requirements**
+Before we dive into the guide, here are some requirements: 
+- ILCoin Point of Sale | PRO 
+- Tablet or PC 
+- ILCoin Point of Sale | PRO requires an internet connection for operation. The internet connection can be established by connecting to a WIFI network.
 
-1. Download the files in the repository
-2. Create and configure a database on your webserver (How to: http://www.fastcomet.com/tutorials/cpanel/create-database)
-3. Import the included SQL database files using PHPmyadmin or similar database manager (How to: https://www.namecheap.com/support/knowledgebase/article.aspx/9143/29/how-to-import-and-export-database-in-cpanel-access-denied-create-database-dbname-error-and-how-to-fix-it
-4. Open the config.php file and update the fields
-5. Pre-generate 1,000 (or more) address using the tool in /js/addresses.html. Copy the output table and paste into a spreadsheet. Save as an Open Spreadsheet document.
-6. Save a copy with the private keys offline, and save another copy to be imported to the database that has the private key column removed. The index or address of an order can later be used to track down the corresponding private key on the offline copy. 
-
-That's it!
-
-Access the admin panel to manage your orders and products with login.php
-The password to access the admin page is set in your config.php
+**How To**
+1. Download the files in the repository https://github.com/PlusBitPos/ILCoin-Gateway 
+2. Create and configure a database on your webserver 
+3. Import the included SQL database files using PHPmyadmin or similar database manager 
+4. Open the config.php file and update the fields. Determine tax rate for your country. 
+- adminUN = define username in order to login admin page (make it very strong) 
+- adminPW= define password in order to login admin page (make it very strong) 
+- tax= define tax rate for your country (0.18 means 18%) 
+- don’t forget to arrange database login info
